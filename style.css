@@ -1,0 +1,250 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #78B3CE;
+    padding: 16px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+}
+
+.grid1 {
+    text-align: left;
+    font-family: sacramento;
+    color: #eaf6f6;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+li{
+    list-style: none;
+}
+.navbar-items>a:hover {
+    color: #C9E6F0;
+}
+.navbar-items>a :active {
+    text-decoration: underline;
+}
+
+.navbar-flex {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.navbar-items >a {
+    color: #eaf6f6;
+    font-family: montserrat, sans-serif;
+    font-size: 1.17rem;
+    text-decoration: none;
+}
+
+.first-section {
+    background-color: #C9E6F0;
+    text-align: center;
+    position: relative;
+    font-family: lato, sans-serif;
+    padding-top: 160px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.name-text {
+    display: block;
+    font-size: 5.625rem;
+    margin: 30px auto 0 auto;
+    color: #78B3CE;
+}
+h2 {
+    display: block;
+    font-family: montserrat, sans-serif;
+    font-weight: normal;
+    font-size: 2.5rem;
+    padding-bottom: 10px;
+    color: #78B3CE;
+}
+
+span {
+    text-decoration: underline;
+}
+.pad-top {
+    height: 70px;
+    position: absolute;
+    top: 70px;
+    right: 200px;
+}
+.pad-bottom {
+    height: 70px;
+    position: absolute;
+    bottom: 300px;
+    left: 250px;
+}
+
+.second-section {
+    text-align: center;
+    padding-top: 100px;
+}
+p.about-me {
+    display: block;
+    width: 40%;
+    margin: auto;
+    line-height: 2;
+    font-family: montserrat, sans-serif;
+}
+.face {
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+}
+hr {
+    margin: 100px auto;
+    border: dotted;
+    width: 6%;
+    border-bottom: none;
+    border-color: #C9E6F0;
+}
+
+.skills {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    padding: auto 10px auto 10px;
+}
+.coding-gif {
+    margin-top: -20px;
+    width: 100%;
+}
+div>p {
+    font-family: montserrat, sans-serif;
+    line-height: 2;
+    display: block;
+}
+div>h3 {
+    color: #78B3CE;
+    font-weight: bold;
+    font-family: montserrat, sans-serif;
+    font-size: 1.17em;
+    display: block;
+}
+
+.my-works{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.pre-work{
+    width: 50%;
+    margin: auto;
+}
+.work-grid{
+    display: grid;
+    width: 60%;
+    margin: 100px auto 0 auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 72px;
+    overflow: auto;
+
+}
+.item1 {
+    background-color: #78B3CE;
+    padding: 10px;
+
+}
+.item2 {
+    background-color: #78B3CE;
+    padding: 10px;
+
+}
+.item3 {
+    background-color: #78B3CE;
+    padding: 10px;
+}
+.item4 {
+    background-color: #78B3CE;
+
+}
+.item5 {
+    background-color: #78B3CE;
+
+}
+.item6 {
+    background-color: #78B3CE;
+
+}
+.work-grid-item>h3 {
+    color: white;
+}
+.work-grid-item>p {
+    color: white;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 20px;
+}
+.grid-divider{
+    margin: auto;
+    width: 100%;
+}
+
+.contact-button {
+    background-color: #78B3CE;
+    border: none;
+    padding: 10px 20px 10px 20px;
+    font-family: montserrat, sans-serif;
+    font-size: 20px;
+    color: white;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+.contact-button:hover{
+    background-color: #C9E6F0;
+}
+
+.fourth-section {
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact>h3{ 
+    padding-bottom: 10px;
+    display: block;
+}
+.contact>p {
+    padding-bottom: 10px;
+    display: block;
+}
+footer {
+    margin: 100px auto 0 auto;
+    background-color: #C9E6F0;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.footer-link{
+    margin: 10px 20px;
+    text-decoration: none;
+    color: #78B3CE;
+}
+
+.footer-link:hover{
+    color: #eaf6f6;
+}
+footer>p {
+    color: #eaf6f6;
+    font-size: 0.9rem;
+    padding: 20px 0;
+}
